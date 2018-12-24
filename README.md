@@ -5,11 +5,11 @@ An extension to help you tackle the day!
 
 ### Get the repo
 *Must have git installed*
-Run `git install https://github.com/HackToHelpUTD/tackle.git`
+* Run `git install https://github.com/HackToHelpUTD/tackle.git`
 
 ### Install the dependencies
 *Must have yarn installed*
-Run `yarn install`
+* Run `yarn install`
 
 ### Running the local version
 * Navigate to `chrome://extensions/`
