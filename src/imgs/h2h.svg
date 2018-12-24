@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1088px" height="268px" viewBox="0 0 1088 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6F1F37" offset="0%"></stop>
+            <stop stop-color="#742D6B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="84.3810096%" y2="85.9522964%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EC7D9E" offset="0%"></stop>
+            <stop stop-color="#DA5F83" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="74.780649%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#D76A8B" offset="0%"></stop>
+            <stop stop-color="#BF486C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#9F4862" offset="0%"></stop>
+            <stop stop-color="#94235C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6" transform="translate(-16.000000, -16.000000)">
+            <text id="hack-to-help" font-family="Poppins-Light, Poppins" font-size="132" font-weight="300" fill="#000000">
+                <tspan x="308.286" y="206">hack to help</tspan>
+            </text>
+            <g id="Group-4">
+                <g id="Group-3">
+                    <g id="Group-5">
+                        <g id="Group-2">
+                            <g id="Group" transform="translate(97.000000, 104.000000)">
+                                <polygon id="Rectangle-1" fill="url(#linearGradient-1)" points="0 22.8 0 65.55 57 99.75 57 57"></polygon>
+                                <polygon id="Rectangle-3" fill="url(#linearGradient-2)" points="26.3076923 -4.79414488e-17 0 22.4545455 57 57 57 21.1590909"></polygon>
+                                <polygon id="Rectangle-4" fill="url(#linearGradient-3)" transform="translate(85.500000, 28.500000) scale(-1, 1) translate(-85.500000, -28.500000) " points="83.3076923 -4.79414488e-17 57 22.4545455 114 57 114 21.1590909"></polygon>
+                                <polygon id="Rectangle-2" fill="url(#linearGradient-4)" transform="translate(85.500000, 61.275000) scale(-1, 1) translate(-85.500000, -61.275000) " points="57 22.8 57 65.55 114 99.75 114 57"></polygon>
+                            </g>
+                            <polygon id="Polygon" stroke="#000000" stroke-width="5" points="153.595359 19 261.488104 70.9584073 288.135411 187.707889 213.471315 281.333704 93.719403 281.333704 19.0553071 187.707889 45.7026144 70.9584073"></polygon>
+                            <polygon id="Polygon-2" stroke="#000000" stroke-width="2" points="154.5 41 251.927858 97.25 251.927858 209.75 154.5 266 57.0721421 209.75 57.0721421 97.25"></polygon>
+                            <polygon id="Polygon-3" stroke="#000000" transform="translate(153.677858, 153.677858) rotate(30.000000) translate(-153.677858, -153.677858) " points="153.677858 41.1778579 251.105716 97.4278579 251.105716 209.927858 153.677858 266.177858 56.25 209.927858 56.25 97.4278579"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

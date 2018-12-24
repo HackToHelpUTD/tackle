@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="node_modules/material-design-lite/material.min.css">
+  <script src="node_modules/material-design-lite/material.min.js"></script>
+  <link rel="stylesheet" href="src/css/style.css">
+  <script src="src/js/main.js"></script>
+  <title>New Tab</title>
+</head>
+<body>
+  <div class="container">
+    <div class="text-center">
+      <h2 class="clock"></h2>
+    </div>
+    <div class="text-center todo-area">
+      <div class="todo-add">
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="add" autocomplete="off">
+          <label class="mdl-textfield__label" for="add">What needs to be done today?</label>
+        </div>
+        <button id="submit"><i class="fas fa-plus"></i></button>
+      </div>
+      <div class="todo-list content">
+        <ul class="list">
+          <!-- Todo items will be added here! -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>
+      <a href="http://hacktohelp.co">
+        <img src="src/imgs/h2h.svg" alt="Hack to Help" class="logo">
+      </a>
+    </p>
+  </div>
+</body>
+</html>
