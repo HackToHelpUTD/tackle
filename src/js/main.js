@@ -51,7 +51,10 @@ function removeFromStorage(itemName) {
         items.splice(index, 1);
       }
       chrome.storage.sync.set({todoItems: items}, function() {
-        console.log('Value is set to ' + items);
+        if (items.length == 0) {
+          var list = document.getElementsByClassName("todo-list")[0];
+          list.style = "display: none";
+        }
       });
     }
   });
@@ -91,6 +94,11 @@ function fetchList(resolve) {
 }
 
 function populateList(items) {
+  if (items.length != 0) {
+    var list = document.getElementsByClassName("todo-list")[0];
+    list.style = "display: block";
+  }
+
   items.forEach(function (item) {
     updateTodoList(item);
   });
@@ -134,26 +142,29 @@ function getTime_12() {
 }
 
 function updateTodoList(itemName) {
-    var id = Math.random().toString(36).substr(2, 9);
-    var list = document.getElementsByClassName("list")[0];
-  
-    var todo_item = document.createElement("li");
-    todo_item.classList.add("list-item");
+  var list = document.getElementsByClassName("todo-list")[0];
+  list.style = "display: block";
 
-    var label = document.createElement("label");
-    label.classList.add("label-checkbox");
-    label.setAttribute("for", id);
-    label.addEventListener("change", removeTodoItem);
+  var id = Math.random().toString(36).substr(2, 9);
+  var list = document.getElementsByClassName("list")[0];
 
-    var input = document.createElement("input");
-    input.classList.add("checkbox");
-    input.setAttribute("type", "checkbox");
-    input.setAttribute("id", id);
+  var todo_item = document.createElement("li");
+  todo_item.classList.add("list-item");
 
-    label.appendChild(input);
-    label.innerHTML += itemName;
+  var label = document.createElement("label");
+  label.classList.add("label-checkbox");
+  label.setAttribute("for", id);
+  label.addEventListener("change", removeTodoItem);
 
-    todo_item.appendChild(label);
-  
-    list.appendChild(todo_item);
+  var input = document.createElement("input");
+  input.classList.add("checkbox");
+  input.setAttribute("type", "checkbox");
+  input.setAttribute("id", id);
+
+  label.appendChild(input);
+  label.innerHTML += itemName;
+
+  todo_item.appendChild(label);
+
+  list.appendChild(todo_item);
 }
