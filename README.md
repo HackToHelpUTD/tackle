@@ -15,4 +15,5 @@ An extension to help you tackle the day!
 * Navigate to `chrome://extensions/`
 * Turn on developer mode
 * Select `Load unpacked`
+* Click on the `tackle` directory
 * The extension will now enabled
