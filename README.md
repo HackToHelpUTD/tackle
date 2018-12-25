@@ -1,5 +1,6 @@
-# Tackle
-An extension to help you tackle the day!
+<p align="center"><img src="https://raw.githubusercontent.com/HackToHelpUTD/tackle/master/.github/logo.png" alt="logo" height="150px"></p>
+<h1 align="center">Daily Motivation</h1>
+<p align="center">An extension to help you tackle the day!</p>
 
 ## Setting up locally
 
