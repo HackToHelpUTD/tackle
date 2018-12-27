@@ -7,6 +7,13 @@
   "chrome_url_overrides" : {
     "newtab": "index.html"
   },
+
+  "icons": { 
+    "16": "src/icons/icon16.png",
+    "32": "src/icons/icon32.png",
+    "48": "src/icons/icon48.png",
+    "128": "src/icons/icon128.png"
+  },
   
   "permissions": [
     "storage"
