@@ -6,6 +6,10 @@ function init() {
   initClock();
   fetchList(populateList);
   document.getElementById("submit").addEventListener("click", addItem);
+  document.getElementsByTagName("form")[0].addEventListener("submit", function(e) {
+    e.preventDefault();
+    addItem();
+  });
 }
 
 function removeTodoItem(e) {
