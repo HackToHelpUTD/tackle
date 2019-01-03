@@ -156,6 +156,10 @@ ul {
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+button {
+  outline: none;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .clock {
