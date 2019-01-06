@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="node_modules/material-design-lite/material.min.css">
   <script src="node_modules/material-design-lite/material.min.js"></script>
   <link rel="stylesheet" href="src/css/style.css">
+  <script src="src/js/clock.js"></script>
+  <script src="src/js/todo.js"></script>
+  <script src="src/js/animations.js"></script>
   <script src="src/js/main.js"></script>
   <title>New Tab</title>
 </head>
@@ -18,7 +21,7 @@
     </div>
     <div class="text-center todo-area">
       <div class="todo-add">
-        <form>
+        <form id="input">
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type="text" id="add" autocomplete="off">
             <label class="mdl-textfield__label" for="add">What needs to be done today?</label>
