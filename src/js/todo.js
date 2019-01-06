@@ -17,12 +17,7 @@ function deleteItem(item) {
         items.splice(index, 1);
       }
 
-      chrome.storage.sync.set({todoItems: items}, function() {
-        if (items.length == 0) {
-          var list = document.getElementsByClassName("todo-list")[0];
-          list.style = "display: none";
-        }
-      });
+      chrome.storage.sync.set({todoItems: items});
     }
   });
 }
@@ -127,6 +122,16 @@ function updateList() {
 
       rmvListElements(itemsToRmv);
       addListElements(itemsToAdd);
+    } else {
+      // Remove all items
+      var list = document.getElementsByClassName("list")[0];
+      while (list.firstChild) {
+        list.removeChild(list.firstChild);
+      }
+
+      // Remove white list area space
+      var listArea = document.getElementsByClassName("todo-list")[0];
+      listArea.style = "display: none";
     }
   });
 }
