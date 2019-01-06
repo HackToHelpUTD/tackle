@@ -14,7 +14,7 @@ function init() {
   document.getElementsByTagName("form")[0].addEventListener("submit", function(e) {
     e.preventDefault();
     var item = document.getElementById("add");
-    if (item.value.lenght != 0)
+    if (item.value.length != 0)
       storeItem(item.value);
     item.value = "";
   });
