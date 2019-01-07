@@ -4,6 +4,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  overflow: hidden;
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
@@ -26,14 +27,18 @@ body {
   animation: fadeIn 1s;
 }
 
+.mdl-textfield {
+  width: 17rem;
+}
+
 button {
   margin-left: 0rem;
-  height: 2.5rem;
-  width: 50px;
+  height: 100%;
+  width: .1rem;
   background: transparent;
   color: #05386b;
   border: none;
-  font-size: 2rem;
+  font-size: 1rem;
   -webkit-appearance: none;
 }
 
@@ -46,11 +51,13 @@ button {
   text-align: left;
   margin: 1rem auto;
   padding: 0.8rem 0.5rem;
-  width: 20rem;
+  width: 15rem;
+  max-height: 15rem;
   background: #fff;
   border-radius: 0.125rem;
   box-shadow: 0 0.125rem 0.3125rem 0 rgba(0, 0, 0, 0.25);
   color: #424242;
+  overflow: auto;
 }
 
 ul {
@@ -86,7 +93,7 @@ ul {
 .list {
   margin: .5rem;
   padding: .5rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .list-item {
@@ -170,6 +177,10 @@ button {
     padding: 12rem 8rem 0 8rem;
   }
 
+  .list {
+    font-size: 1.5rem;
+  }
+
   .todo-add,
   .todo-list {
     width: 40rem;
@@ -185,6 +196,11 @@ button {
   }
   
   .mdl-textfield__label {
+    font-size: 2rem;
+  }
+
+  button {
+    width: 1rem;
     font-size: 2rem;
   }
 }
