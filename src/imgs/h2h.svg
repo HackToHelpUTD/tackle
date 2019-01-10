@@ -4,6 +4,9 @@
     <title>Group 6</title>
     <desc>Created with Sketch.</desc>
     <defs>
+        <style type="text/css"> 
+            @import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
+        </style>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
             <stop stop-color="#6F1F37" offset="0%"></stop>
             <stop stop-color="#742D6B" offset="100%"></stop>
