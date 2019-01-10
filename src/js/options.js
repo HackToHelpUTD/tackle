@@ -17,6 +17,8 @@ function setUI() {
         initClock("12"); 
       themes[theme_id]();
     } else {
+      var theme_button = document.getElementById("0");
+      theme_button.classList.add("active");
       themes[0]();
       initClock("12");
     }
