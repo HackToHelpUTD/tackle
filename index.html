@@ -5,16 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-  <link rel="stylesheet" href="node_modules/material-design-lite/material.min.css">
+  <link rel="stylesheet" href="node_modules/material-design-lite/material.min.css"> 
   <script src="node_modules/material-design-lite/material.min.js"></script>
+  <link rel="stylesheet" href="src/css/radio_button.css">
+  <link rel="stylesheet" href="src/css/collision_button.css">
   <link rel="stylesheet" href="src/css/style.css">
   <script src="src/js/clock.js"></script>
   <script src="src/js/todo.js"></script>
   <script src="src/js/animations.js"></script>
+  <script src="src/js/options.js"></script>
+  <script src="src/js/themes.js"></script>
   <script src="src/js/main.js"></script>
   <title>New Tab</title>
 </head>
 <body>
+  <div class="settings-gear">
+    <i id="settings-toggler" class="fas fa-cog"></i>
+  </div>
+  <div class="settings">
+    <div class="exit">
+      <i id="exit-options" class="fas fa-times"></i>
+    </div>
+    <div class="clock-settings">
+      <h3>Clock Format</h3>
+      <div id="radios">
+        <label for="24" class="radio">
+          <input type="radio" name="format" id="24" value="24"/>
+          <span>24</span>
+        </label>
+        <label for="12" class="radio">
+          <input type="radio" name="format" id="12" value="12"/>
+          <span>12</span>
+        </label>
+      </div>
+    </div>
+    <div class="theme-settings">
+      <h3>Themes</h3>
+      <button id="0" class="btn-collision theme-option">Classic</button>
+      <button id="1" class="btn-collision theme-option">Minty Fresh</button>
+      <button id="2" class="btn-collision theme-option">Green Delight</button>
+      <button id="3" class="btn-collision theme-option">Blue Night</button>
+    </div>
+  </div>
   <div class="container">
     <div class="text-center">
       <h2 class="clock"></h2>

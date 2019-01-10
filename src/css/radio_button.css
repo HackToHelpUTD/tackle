@@ -1,0 +1,42 @@
+#radios label {
+	cursor: pointer;
+	position: relative;
+}
+
+#radios label + label {
+	margin-left: 15px;
+}
+
+input[type="radio"] {
+	opacity: 0; /* hidden but still tabable */
+	position: absolute;
+}
+
+input[type="radio"] + span {
+	color: #ffffff;
+	border-radius: 50%;
+	padding: 12px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+}
+
+input[type="radio"]:checked + span {
+	color: #ffffff;
+  background-color: #000000;
+}
+
+input[type="radio"]:focus + span {
+	color: #ffffff;
+}
+
+.clock-settings .radio {
+	font-weight: 700;
+}
+
+.radio span {
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+}
