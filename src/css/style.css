@@ -51,7 +51,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 1.5rem;
   opacity: 0.6;
 }
@@ -143,7 +143,7 @@ ul {
 }
 
 .todo-area {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .list {
@@ -226,11 +226,11 @@ button {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .clock {
-    font-size: 10rem;
+    font-size: 8rem;
   }
 
   .container {
-    padding: 12rem 8rem 0 8rem;
+    padding: 8rem 8rem 0 8rem;
   }
 
   .list {
@@ -243,21 +243,21 @@ button {
   }
 
   .mdl-textfield {
-    width: 35rem;
+    width: 30rem;
   }
 
   .mdl-textfield__input {
     height: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   
   .mdl-textfield__label {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   button {
     width: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
