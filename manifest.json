@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Tackle | Todo List",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Tackle the day with this beautiful todo list.",
 
   "chrome_url_overrides" : {
